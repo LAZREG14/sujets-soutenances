@@ -60,14 +60,8 @@ Chaque dossier `S-XXX` contient :
 
 | ID | Sujet | Difficulté | Technologies | Encadrant |
 |----|-------|:----------:|--------------|-----------|
-| S-001 | Prédiction des retards de livraison (Supply Chain) | ⭐⭐⭐ | Python, ML, Power BI, Pandas, Scikit-learn | M. LAZREG |
-| S-002 | Dashboard épidémiologique régional | ⭐⭐ | Excel, Power BI, Stats, Power Query | S. WAHBI |
-| S-003 | Recommandation de films (Filtrage collaboratif) | ⭐⭐⭐ | Python, ML, Pandas, Scikit-learn | M. LAZREG |
-| S-004 | Modélisation BDD commerciale (ETL) | ⭐⭐ | Excel, MySQL, Python, Power Query, VBA | R. SOUNNI |
-| S-005 | Anomalies énergétiques (IoT / Séries temporelles) | ⭐⭐⭐ | Python, ML, Stats, Pandas, Matplotlib | M. LAZREG |
-| S-006 | Emploi tech en Afrique du Nord (Scraping) | ⭐⭐ | Python, Scraping, Power BI, Pandas | S. WAHBI |
-| S-007 | Scoring crédit (Microfinance) | ⭐⭐⭐ | Python, ML, MySQL, Scikit-learn, Pandas | M. LAZREG |
-| S-008 | Reporting ventes — Excel & Power Query | ⭐ | Excel, MySQL, Power BI, Power Query, VBA | S. WAHBI |
+| S-001 | Analyse comparative de l'evolution climatique en France | ⭐⭐ | Python, Pandas, Matplotlib, Seaborn, Power BI | M. LAZREG |
+
 
 ---
 
