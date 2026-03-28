@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="https://lazreg14.github.io/datasuits/">🌐 Accéder au portail</a> •
-  <a href="#sujets-disponibles">📋 Voir les sujets</a> •
-  <a href="#structure">📁 Structure</a>
+  <a href="#-sujets-disponibles">📋 Voir les sujets</a> •
+  <a href="#-structure-du-dépôt">📁 Structure</a>
 </p>
 
 ---
@@ -29,20 +29,17 @@ Ce dépôt héberge les **données et énoncés** des sujets de projet final pro
 
 ---
 
-## 📁 Structure {#structure}
+## 📁 Structure du dépôt
 
 ```
-data-soutenance/
+sujets-soutenances/
 ├── sujets/
 │   ├── S-001/
-│   │   ├── sujet.pdf          ← Énoncé & problématique
-│   │   └── dataset.csv        ← Données à analyser
+│   │   ├── S-001_sujet.pdf       ← Énoncé & problématique
+│   │   └── S-001_data.csv        ← Dataset
 │   ├── S-002/
-│   │   ├── sujet.pdf
-│   │   └── dataset.xlsx
-│   ├── S-003/
-│   │   ├── sujet.pdf
-│   │   └── dataset.zip
+│   │   ├── S-002_sujet.pdf
+│   │   └── S-002_data.csv
 │   └── ...
 └── README.md
 ```
@@ -51,45 +48,49 @@ Chaque dossier `S-XXX` contient :
 
 | Fichier | Description |
 |---------|-------------|
-| `sujet.pdf` | Énoncé complet : contexte métier, problématique, consignes, livrables attendus |
-| `dataset.*` | Données brutes (.csv, .xlsx, .json ou .zip si plusieurs fichiers) |
+| `S-XXX_sujet.pdf` | Énoncé complet : contexte métier, problématique, objectifs, livrables |
+| `S-XXX_data.*` | Données brutes (.csv, .xlsx, .json ou .zip si plusieurs fichiers) |
 
 ---
 
-## 📋 Sujets disponibles {#sujets-disponibles}
+## 📋 Sujets disponibles
 
 | ID | Sujet | Difficulté | Technologies | Encadrant |
 |----|-------|:----------:|--------------|-----------|
-| S-001 | Analyse comparative de l'evolution climatique en France | ⭐⭐ | Python, Pandas, Matplotlib, Seaborn, Power BI | M. LAZREG |
+| [S-001](sujets/S-001/) | Analyse comparative de l'évolution climatique en France (Paris, Bordeaux, Marseille) | ⭐⭐ | Python, Pandas, Matplotlib, Seaborn, Power BI | M. LAZREG |
 
+> 🔄 *D'autres sujets seront ajoutés progressivement au fil des promotions.*
 
 ---
 
 ## 📥 Comment télécharger ?
 
 **Option 1 — Via le portail (recommandé)**
+
 Rendez-vous sur [lazreg14.github.io/datasuits](https://lazreg14.github.io/datasuits/), section **Sujets imposés**, et cliquez sur les boutons **PDF** et **Dataset**.
 
 **Option 2 — Téléchargement direct**
+
 ```
-https://github.com/LAZREG14/data-soutenance/raw/main/sujets/S-001/sujet.pdf
-https://github.com/LAZREG14/data-soutenance/raw/main/sujets/S-001/dataset.csv
+https://github.com/LAZREG14/sujets-soutenances/raw/main/sujets/S-001/S-001_sujet.pdf
+https://github.com/LAZREG14/sujets-soutenances/raw/main/sujets/S-001/S-001_data.csv
 ```
 
-**Option 3 — Cloner tout le dépôt**
+**Option 3 — Cloner le dépôt**
+
 ```bash
-git clone https://github.com/LAZREG14/data-soutenance.git
+git clone https://github.com/LAZREG14/sujets-soutenances.git
 ```
 
 ---
 
 ## 👨‍🏫 Équipe pédagogique
 
-| Formateur | Spécialité |
-|-----------|------------|
-| **Mustapha LAZREG** | Data Science, Machine Learning, Python, Deep Learning |
-| **Samy WAHBI** | Business Intelligence, Power BI, Excel, SQL |
-| **Reda SOUNNI** | Bases de données, MySQL, PostgreSQL, ETL |
+| Formateur | Rôle | Spécialités |
+|-----------|------|-------------|
+| **Mustapha LAZREG** | Formateur — Python & SQL | ML, Python, Deep Learning, Pandas, NLP, LLM |
+| **Samy WAHBI** | Responsable du parcours Data Analyst | Excel, ML, Python |
+| **Reda SOUNNI** | Formateur — Power BI & SQL | MySQL, Power BI, ML, Python |
 
 ---
 
